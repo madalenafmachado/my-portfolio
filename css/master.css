@@ -1,0 +1,13 @@
+body {
+    background-color: #7fa7c1eb;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+#about-me{
+    align-content: center;
+}
