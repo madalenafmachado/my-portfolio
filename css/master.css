@@ -11,10 +11,10 @@ body {
 header {
     background-color: #f1f1f1;
     text-align:left;
-    padding: 5px;
-    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
 }
-
 
 .navigation {
     display: flex;
@@ -51,9 +51,40 @@ header {
     background-color: #f1f1f1;
 }
 
-table, th, td {
-    border:1px solid black;
+.skillset{
+    min-height: 500px;
+    display: flex;
+    flex-wrap:wrap;
 }
+
+ul{
+    list-style:circle;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li{
+    margin-block: 10px;
+}
+
+table, th, td {
+    border:2px solid black;
+    padding: 12px 15px;
+}
+
+a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
 
 footer {
     padding: 5px;

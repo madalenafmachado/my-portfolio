@@ -2,49 +2,78 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220%200%20100%20100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><text x=%2250%22 y=%2250%22 font-family=%22-apple-system,BlinkMacSystemFont,Segoe%20UI,Roboto,Arial%22 font-weight=%22700%22 font-size=%2250%22 fill=%22%23fff%22 text-anchor=%22middle%22 dominant-baseline=%22central%22>M</text></svg>" />
     <meta charset="UTF-8">
+    <meta http-equiv=“Pragma” content=”no-cache”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
     <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="../css/master.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/master.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=account_circle" />    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=folder_code" />
     <title>Madalena's Portfolio</title>
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        <h1>WELCOME TO MY DIGITAL PORTFOLIO!</h1>
+        <span class="material-symbols-outlined">account_circle</span>
+        <h4>Welcome to Madalena's Digital Portfolio</h4>
     </header>
 
     <!-- Navigation Bar -->
     <div class="navigation">
-        <a href="">Education</a>
-        <a href="sections/skillset.html">Skillset</a>
-        <a href="sections/projects.html">Projects</a>
-        <a href="#">Hobbies and Personal</a>
+        <a href="index.html">Home</a>
+        <a href="experience.html">Work experience</a>
+        <a href="skillset.html">Skillset</a>
+        <a href="projects.html">Projects</a>
+        <a href="hobbies.html">Hobbies and Personal</a>
     </div>
-    
+
     <!-- Content menu -->
     <div class="main">
         <div class="contact-info">
             <h2>How to Reach Me</h2>
-            <ul>
-                <li>LinkedIn: 
-                    <a href="http://www.linkedin.com/in/madalena-machado">madalena-machado</a>
-                    </li>
-                <li>Email address: madalenafmachado@gmail.com
-                <li>Phone number: +351 910917771</li>
-                </li>
-            </ul>
+            <h4>LinkedIn:</h4> 
+            <a href="http://www.linkedin.com/in/madalena-machado">madalena-machado</a>
+            <h4>Email address:</h4> 
+            <p>madalenafmachado@gmail.com</p>
+            <h4>Phone number: </h4>
+            <p>+351 910917771</p>
+            <h4>Photo of Me:</h4>
+            <img class="img" src="../images/madalena.jpg" alt="coding" height="200px">
+
         </div>
             
         <div class="focus">
             <div id="uni-projects">
+                <span class="material-symbols-outlined">folder_code</span>
                 <h3>Here are some projects I developed during university</h3>
-                <p>DEGREE IN COMPUTER ENGINEERING</p>
+                <h4>Distributed Systems:</h4>
+                <p>A key-value storage service inspired by Amazon DynamoDB, implemented in C.</p>
+                <h4>Information Systems:</h4>
+                <p>A Uber inspired app for ordering taxis created using Angular, TypeScript and MongoDB.</p>
+                <h4>Object Oriented Programming:</h4>
+                <p>App to organize media resources, with some other features, implemented in Java.</p>
+                <h4>Graphic Computing:</h4>
+                <p>An interactive Solar System experience created using three.js and WebGL.</p>
+                <h4>Human-Machine Interfaces:</h4>
+                <p>An app designed for meal planning for users, built with HTML, CSS, and JavaScript.</p>
+                <h4>Operative Systems</h4>
+                <p>An app to manage a hospital system with requests, implemented in C.</p>
+                <h4>Software Systems</h4>
+                <p>An app to register football tournaments, using Java, Spring and Maven.</p>
             </div>
+
+            <span class="material-symbols-outlined">folder_code</span>
             <div id="personal-projects">
                 <h3>Here are some personal projects/exercises</h3>
+                <ul>
+                    <li>This portfolio, made with HTML/CSS/JavaScript</li>
+                    <li>Java exercises</li>
+                    <li>Learning React</li>
+                </ul>
                 <p>For more, check my GitHub profile: <a href="https://github.com/madalenafmachado">madalenafmachado</a></p>
             </div>
         </div>
