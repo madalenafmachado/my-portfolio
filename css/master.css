@@ -9,6 +9,11 @@ body {
     margin: 0;
 }
 
+h2{
+    text-transform: uppercase;
+    text-shadow: 0 0 15px #7fa7c1eb;
+}
+
 .main{
     display: flex;
     flex-wrap: wrap;
@@ -25,10 +30,22 @@ body {
     background-color: #7fa7c1eb;
 }
 
+.icon-heading {
+  display: flex;        
+  align-items: center;  
+  gap: 5px;            
+}
+
+hr.rounded {
+  border: 5px solid #333;
+  border-radius: 2px;
+}
+
 .img{
     margin: 5px;
     border:1px solid #333;
     border-radius: 8px;
+    float:inline-start;
 }
 
 ul{
@@ -41,7 +58,6 @@ li{
     margin-block: 5px;
 }
 
-
 a:link, a:visited {
     background-color: #333;
     color: white;
@@ -53,8 +69,20 @@ a:link, a:visited {
   }
   
 a:hover, a:active {
-    background-color: green;
+    background-color: #7fa7c1eb;
     color: white;
+}
+
+table, th, td {
+    border:2px solid black;
+    padding: 12px 15px;
+}
+
+.university {
+  display: flex;        
+  align-items: center;  
+  gap: 5px;    
+  line-height: 20px;        
 }
 
 footer {
