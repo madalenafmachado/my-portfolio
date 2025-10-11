@@ -1,17 +1,64 @@
+:root{
+    --base-color: #f0efd7;
+    --base-variant: #7fa7c1eb;
+    --nav--color: #333;
+    --text-color: black;
+    --side-color: #7fa7c1eb;
+}
+
+.darkmode{
+    --base-color: #4a4a4a;
+    --base-variant: #829399;
+    --nav-color: #333;
+    --text-color: white;
+    --side-color: #829399;
+    --text-side: black;
+}
+
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#theme-switch span{
+    fill: var(--base-color);
+}
+
+#theme-switch span:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch span:first-child{
+    display: none;
+}
+
+.darkmode #theme-switch span:last-child{
+    display: block;
+}
+
 *{
     box-sizing: border-box;
+    font-family: Poppins;
 }
   
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f0efd7;
-    color: #333;
+    background-color: var(--base-color);
+    color: var(--text-color);
     margin: 0;
 }
 
 h2{
     text-transform: uppercase;
-    text-shadow: 0 0 15px #7fa7c1eb;
+    text-shadow: 0 0 15px var(--base-variant);
 }
 
 .main{
@@ -27,7 +74,8 @@ h2{
 .contact-info{
     flex: 20%;
     padding: 20px;
-    background-color: #7fa7c1eb;
+    color: var(--text-side);
+    background-color: var(--side-color);
 }
 
 .icon-heading {
@@ -86,10 +134,36 @@ table, th, td {
 }
 
 footer {
+    background-color: var(--nav--color);
     padding: 5px;
     text-align: center;
-    background-color: #333;
+    color: var(--text-side);
+}
+
+header {
+    background-color: var(--side-color);
+    text-align:left;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    color: var(--text-side);
+}
+
+.navigation {
+    display: flex;
+    background-color: var(--nav--color);
+}
+  
+.navigation a {
     color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */

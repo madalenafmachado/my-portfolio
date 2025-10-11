@@ -3,22 +3,26 @@
 
 <head>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220%200%20100%20100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><text x=%2250%22 y=%2250%22 font-family=%22-apple-system,BlinkMacSystemFont,Segoe%20UI,Roboto,Arial%22 font-weight=%22700%22 font-size=%2250%22 fill=%22%23fff%22 text-anchor=%22middle%22 dominant-baseline=%22central%22>M</text></svg>" />
-    <meta charset="UTF-8">
-    <meta http-equiv=“Pragma” content=”no-cache”>
-    <meta http-equiv=“Expires” content=”-1″>
-    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>    
+    <meta charset="UTF-8">  
     <title>Madalena's Portfolio</title>
     <!-- CSS Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="../css/master.css">    
-    <link rel="stylesheet" href="../css/navigation.css">
+    <script type="text/javascript" src="../js/darkmode.js" defer></script>
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        <span class="material-symbols-outlined">account_circle</span>
-        <h4>Welcome to Madalena's Digital Portfolio</h4>
+        <div class="icon-heading">
+            <span class="material-symbols-outlined">account_circle</span>
+            <h4>Welcome to Madalena's Digital Portfolio</h4>
+        </div>
+        <button id="theme-switch">
+            <span class="material-symbols-outlined">dark_mode</span>
+            <span class="material-symbols-outlined">light_mode</span>
+        </button>
     </header>
 
     <!-- Navigation Bar -->
@@ -34,8 +38,13 @@
     <!-- Content menu -->
     <div class="main">
         <div class="contact-info">
-            <span class="material-symbols-outlined">side_navigation</span>
-            <h1>How to Reach Me</h1>
+            <button id="hide-menu">
+                <span class="material-symbols-outlined">side_navigation</span>
+            </button>
+            <div class="icon-heading">
+                <span class="material-symbols-outlined">perm_phone_msg</span>
+                <h2>Contacts</h2>   
+            </div>
             <h3>LinkedIn profile:</h3> 
             <a href="http://www.linkedin.com/in/madalena-machado">madalena-machado</a>
             <h3>Email address:</h3> 
@@ -48,15 +57,17 @@
          
         <div class="focus">
             <h2>Hobbies</h2>
-            <div class="other">
-                <h4>College Adventures</h4>
-                <p>Some activities I participate while in university</p>
-                <ul>
-                    <li>CADI (2023-2025) - was a member and vice-coordinator of the Social Media Department</li>
-                    <li>Tuna (2024-2025) - member of the musical group of my university, where I sing and play guitar</li>
-                    <li>Gym - helps with physical conditioning</li>
-                </ul>
-            </div>
+            <p>Some activities I participate while in university</p>
+            <ul>
+                <li>CADI (2023-2025) - was a member and vice-coordinator of the Social Media Department</li>
+                <li>Tuna (2024-Present) - member of the musical group of my university, where I sing and play guitar</li>
+            </ul>
+            <h2>College Adventures</h2>
+            <ul>
+                <li>Gym - usually 2-4 times a week</li>
+                <li>Running or going on walks - usually twice a week</li>
+                <li>Reading - thrillers and science fiction</li>
+            </ul>
         </div>
     </div>
 </body>
