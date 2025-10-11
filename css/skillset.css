@@ -1,0 +1,5 @@
+.skillset{
+    min-height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+}
