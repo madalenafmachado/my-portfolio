@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="css/master.css">    
-    <script type="text/javascript" src="js/darkmode.js" defer></script>
 </head>
 
 <body>
@@ -53,27 +52,31 @@
             <p>+351 910917771</p>
             <h3>My GitHub:</h3> 
             <a href="https://github.com/madalenafmachado">madalenafmachado</a>
+            <div class="language">
+                <button onclick="changeLanguage('en')">English</button>
+                <button onclick="changeLanguage('pt')">Português</button>
+            </div>
         </div>
          
         <div class="focus">
             <hr class="rounded"> 
             <div class="icon-heading">
                 <span class="material-symbols-outlined">account_circle</span>
-                <h2>Basic Information</h2>
+                <h2 id="hinfo">Basic Information</h2>
             </div>
             <table>
                 <col>
-                    <th>Full Name</th>
-                    <th>Higher Education</th>
-                    <th>Date of Birth</th>
-                    <th>Citizenship</th>
-                    <th>Where I currently live</th>
+                    <th id="name">Full Name</th>
+                    <th id="education">Higher Education</th>
+                    <th id="dob">Date of Birth</th>
+                    <th id="citizenship">Citizenship</th>
+                    <th id="address">Where I currently live</th>
                 <tr>
                     <td>Madalena Ferreira Machado</td>
-                    <td>Bachelor's Degree</td>
+                    <td id="curso">Bachelor's Degree</td>
                     <td>23/08/2004</td>
                     <td>Portuguese</td>
-                    <td>Alcântara - Lisbon</td>
+                    <td>Alcântara (Lisbon)</td>
                 </tr>
             </table>
 
@@ -82,22 +85,22 @@
             <div class="about-me">
                 <div class="icon-heading">
                     <span class="material-symbols-outlined">book_ribbon</span>
-                    <h2>About Me </h2>   
+                    <h2 id="habout">About Me </h2>   
                 </div>
-                <p> As a dedicated Computer Engineering student at the Faculty of Sciences of the University of Lisbon, 
+                <p id="about"> As a dedicated Computer Engineering student at the Faculty of Sciences of the University of Lisbon, 
                     I am currently in the final stages of completing my Bachelors degree. My academic journey is a reflection of my 
                     deep-seated passion for technology and programming, where I immerse myself in the world of coding and software development. 
                     Beyond my studies, I also nurture a love for music which not only inspires me but also enriches my social engagements through 
                     various activities and collaborations. Balancing these diverse interests allows me to thrive both intellectually and creatively, 
                     making my university experience truly fulfilling.</p>
                 <img class="img" src="images/madalena.jpg" alt="coding" height="200px">
-                <h4>Some interesting facts</h4>
+                <h4 id="facts">Some interesting facts</h4>
                 <ul>
-                    <li>Age: 21 years</li>
-                    <li>Languages: Portuguese (Native) | English (Fluent) | French (Intermediate) | Spanish (Intermediate)</li>
-                    <li>Originally from: Benedita, Alcobaça (Portugal)</li>
-                    <li>Would like to: Travel the world with just a backpack and some friends</li>
-                    <li>Fueled by: coffee and a curiosity for how things work</li>
+                    <li id="age">Age: 21 years</li>
+                    <li id="languages">Languages: Portuguese (Native) | English (Fluent) | French (Intermediate) | Spanish (Intermediate)</li>
+                    <li id="origin">Originally from: Benedita, Alcobaça (Portugal)</li>
+                    <li id="funfact">Would like to: Travel the world with just a backpack and some friends</li>
+                    <li id="fueled">Fueled by: coffee and a curiosity for how things work</li>
                 </ul>
             </div>
         </div>
@@ -110,5 +113,6 @@
 
 <!-- Our codes -->
 <script src="js/main.js"></script>
+<script type="text/javascript" src="js/darkmode.js" defer></script>
 
 </html>

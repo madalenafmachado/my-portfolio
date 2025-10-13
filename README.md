@@ -1,6 +1,6 @@
 # My Personal Portfolio Website
 
-![home page](home-page.png)
+![home page](home.png)
 
 A clean, responsive, and interactive personal portfolio built with HTML, CSS, and vanilla JavaScript. This project showcases my skills, projects, and professional background.
 
@@ -16,7 +16,7 @@ This portfolio was built to be a central hub for my work and professional identi
 ## ✨ Features
 
 -   **Dark/Light Mode Toggle:** A user-friendly theme switcher for comfortable viewing in any lighting.
--   **Multi-language Support:** Easily switch between English and Spanish with a single click.
+-   **Multi-language Support:** Easily switch between English and Portuguese with a single click (home page).
 -   **Interactive Project Gallery:** Filterable project cards to showcase different categories of my work.
 -   **Smooth Scrolling & Animations:** Subtle animations on scroll and smooth navigation to enhance user experience.
 -   **Fully Responsive Design:** Looks great on all devices, from mobile phones to desktop screens.
