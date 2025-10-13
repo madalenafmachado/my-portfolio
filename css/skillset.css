@@ -24,7 +24,7 @@
     margin-top: 20px;
     height: 400px;
     background-color: #7fa7c1eb;
-    color: white;
+    color: #333;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -32,9 +32,9 @@
 }
 
 h4{
-    color: #333;
+    color: black;
     text-transform:uppercase;
-    text-shadow: 0 0 40px black;
+    text-shadow: 0 0 30px black;
     font-style: italic
 }
 
