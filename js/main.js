@@ -4,7 +4,6 @@ const translations = {
     habout: "About me",
     about: "As a dedicated Computer Engineering student at the Faculty of Sciences of the University of Lisbon, I am currently in the final stages of completing my Bachelors degree. My academic journey is a reflection of my deep-seated passion for technology and programming, where I immerse myself in the world of coding and software development. Beyond my studies, I also nurture a love for music which not only inspires me but also enriches my social engagements through various activities and collaborations. Balancing these diverse interests allows me to thrive both intellectually and creatively, making my university experience truly fulfilling.",
     facts: "Some interesting facts",
-    age: "Age: 21 years",
     languages: "Languages: Portuguese (Native) | English (Fluent) | French (Intermediate) | Spanish (Intermediate)",
     origin: "Originally from: Benedita, Alcobaça (Portugal)",
     funfact: "Would like to: Travel the world with just a backpack and some friends",
@@ -19,9 +18,8 @@ const translations = {
     },
   pt: {
     habout: "Sobre mim",
-    about: "Como estudante de Engenharia Informática na Faculdade de Ciências da Universidade de Lisboa, encontro-me atualmente na fase final da minha licenciatura. O meu percurso académico é um reflexo da minha profunda paixão por tecnologia e programação, onde me aprofundo no mundo da programação e desenvolvimento de software. Para além dos meus estudos, também nutro um amor pela música, que não só me inspira, como também enriquece os meus compromissos sociais através de várias atividades e colaborações. Equilibrar estes interesses diversos permite-me prosperar tanto intelectual como criativamente, tornando a minha experiência universitária verdadeiramente gratificante.",
+    about: "Como estudante de Engenharia Informática na Faculdade de Ciências da Universidade de Lisboa, encontro-me atualmente na fase final da minha licenciatura. O meu percurso académico reflete a minha paixão por tecnologia e programação, onde me aprofundo no mundo do desenvolvimento de software. Para além dos meus estudos, também dedico o meu tempo à música, que não só me inspira, como também me enriquece os meus compromissos sociais através de várias atividades e colaborações. Equilibrar estes interesses diversos permite-me prosperar tanto intelectual como criativamente, tornando a minha experiência universitária mais completa e memorável.",
     facts: "Alguns factos sobre mim",
-    age: "Idade: 21 anos",
     languages: "Línguas: Português (Nativo) | Inglês (Fluente) | Francês (Intermédio) | Espanhol (Intermédio)",
     origin: "Terra natal: Benedita, Alcobaça (Portugal)",
     funfact: "Gostaria de: Conhecer vários países com amigos, apenas de mochila às costas e uma câmera",
